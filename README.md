@@ -4,11 +4,11 @@
 
 | 题目 | 题目描述 | 编译方法 | 样例输出 | 评分依据 | 
 | --- | --- | --- | --- | --- | 
-| basic | :o: | :o: | :o: | :o: |
-| busybox | :x: | :o: | :x: | :o: |
-| lua | :x: | :o: | :x: | :o: |
-| libctest | :x: | :o: | :x: | :o: |
-| iozone | :x: | :o: | :x: | :o: |
+| basic | :white_check_mark:| :white_check_mark: |:white_check_mark: | :white_check_mark: |
+| busybox | :x: | :white_check_mark: | :x: | :white_check_mark: |
+| lua | :x: | :white_check_mark: | :x: | :white_check_mark: |
+| libctest | :x: | :white_check_mark: | :x: | :white_check_mark: |
+| iozone | :x: | :white_check_mark: | :x: | :white_check_mark: |
 | unixbench | :x: | :x: | :x: | :x: |
 | iperf | :x: | :x: | :x: | :x: |
 | libcbench | :x: | :x: | :x: | :x: |
