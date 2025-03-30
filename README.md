@@ -23,7 +23,7 @@
 
 对上述每个测试题目，需给出题目描述、编译方法、样例输出、评分依据四个部分的测例题目说明信息。我们希望能够有志愿者同学帮助我们进一步完成剩余的**测例题目说明信息**
 
-**请愿意做志愿者的同学参考已经给出`basic`、`busybox`、`lua`等测例题目说明信息，提交或改进测例题目说明信息，以[Pull request的形式在[本仓库Pull requests](https://github.com/oscomp/oskernel-testsuits-cooperation/pulls)中呈现。需要了解的具体操作如下面的内容所示。**
+**请愿意做志愿者的同学参考已经给出`basic`、`busybox`、`lua`等已完成的测例题目说明信息，提交或改进测例题目说明信息，以[Pull request的形式在[本仓库Pull requests](https://github.com/oscomp/oskernel-testsuits-cooperation/pulls)中呈现。需要了解的具体操作如下面的内容所示。**
 
 **如果在进行分析和具体操作过程中，发现问题，请在[本仓库issues](https://github.com/oscomp/oskernel-testsuits-cooperation/issues)中提出。**
 
