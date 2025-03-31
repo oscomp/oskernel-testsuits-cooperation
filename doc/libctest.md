@@ -18,7 +18,7 @@ libc-test 是一个用于测试 C 标准库（libc）功能和兼容性的测试
 ## 样例输出
 
 
-测试 libctest musl 版本的输出可能如下所示：
+测试 libctest 的输出可能如下所示：
 ```
 #### OS COMP TEST GROUP START libctest ####
 ========== START entry-static.exe argv ==========
