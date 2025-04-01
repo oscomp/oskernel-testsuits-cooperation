@@ -7,15 +7,15 @@
 | basic | :white_check_mark:| :white_check_mark: |:white_check_mark: | :white_check_mark: |
 | busybox | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | lua | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| libctest | :x: | :white_check_mark: | :x: | :white_check_mark: |
+| libctest | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | iozone | :x: | :white_check_mark: | :x: | :white_check_mark: |
-| unixbench | :x: | :x: | :x: | :x: |
-| iperf | :x: | :x: | :x: | :x: |
-| libcbench | :x: | :x: | :x: | :x: |
-| lmbench | :x: | :x: | :x: | :x: |
-| netperf | :x: | :x: | :x: | :x: |
-| cyclictest | :x: | :x: | :x: | :x: |
-| ltp |:x: | :x: | :x: | :x: |
+| unixbench | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| iperf | :white_check_mark: | :white_check_mark: | :white_check_mark:| :white_check_mark: |
+| libcbench | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| lmbench | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| netperf | :x: | :white_check_mark: | :x: | :white_check_mark: |
+| cyclictest | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: |
+| ltp |:x: | :white_check_mark: | :x: | :white_check_mark: |
 
 ## 说明
 
