@@ -14,7 +14,7 @@
 | libcbench | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | lmbench | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | netperf | :x: | :white_check_mark: | :x: | :white_check_mark: |
-| cyclictest | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: |
+| cyclictest | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | ltp |:x: | :white_check_mark: | :x: | :white_check_mark: |
 
 ## 说明
