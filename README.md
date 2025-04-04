@@ -2,20 +2,20 @@
 
 ## 进度
 
-| 题目 | 题目描述 | 编译方法 | 样例输出 | 评分依据 | 
-| --- | --- | --- | --- | --- | 
-| basic | :white_check_mark:| :white_check_mark: |:white_check_mark: | :white_check_mark: |
-| busybox | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| lua | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| libctest | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| iozone | :x: | :white_check_mark: | :x: | :white_check_mark: |
-| unixbench | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| iperf | :white_check_mark: | :white_check_mark: | :white_check_mark:| :white_check_mark: |
-| libcbench | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| lmbench | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| netperf | :x: | :white_check_mark: | :x: | :white_check_mark: |
-| cyclictest | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| ltp |:x: | :white_check_mark: | :x: | :white_check_mark: |
+| 题目       | 题目描述 | 编译方法 | 样例输出 | 评分依据 |
+| ---------- | -------- | -------- | -------- | -------- |
+| basic      | ✅       | ✅       | ✅       | ✅       |
+| busybox    | ✅       | ✅       | ✅       | ✅       |
+| lua        | ✅       | ✅       | ✅       | ✅       |
+| libctest   | ✅       | ✅       | ✅       | ✅       |
+| iozone     | ❌       | ✅       | ❌       | ✅       |
+| unixbench  | ✅       | ✅       | ✅       | ✅       |
+| iperf      | ✅       | ✅       | ✅       | ✅       |
+| libcbench  | ✅       | ✅       | ✅       | ✅       |
+| lmbench    | ✅       | ✅       | ✅       | ✅       |
+| netperf    | ❌       | ✅       | ❌       | ✅       |
+| cyclictest | ✅       | ✅       | ✅       | ✅       |
+| ltp        | ✅       | ✅       | ✅       | ✅       |
 
 ## 说明
 
@@ -23,7 +23,7 @@
 
 **注：对上述每个测试题目，需给出题目描述、编译方法、样例输出、评分依据四个部分的测例题目说明信息。我们希望能够有志愿者同学帮助我们进一步完成剩余的测例题目说明信息**
 
-**请愿意做志愿者的同学参考已经给出`basic`、`busybox`、`lua`等已完成的测例题目说明信息，提交或改进测例题目说明信息，以Pull request的形式在[本仓库Pull requests](https://github.com/oscomp/oskernel-testsuits-cooperation/pulls)中呈现。需要了解的具体操作如下面的内容所示。**
+**请愿意做志愿者的同学参考已经给出 `basic`、`busybox`、`lua`等已完成的测例题目说明信息，提交或改进测例题目说明信息，以Pull request的形式在[本仓库Pull requests](https://github.com/oscomp/oskernel-testsuits-cooperation/pulls)中呈现。需要了解的具体操作如下面的内容所示。**
 
 **如果在进行分析和具体操作过程中，发现问题，请在[本仓库issues](https://github.com/oscomp/oskernel-testsuits-cooperation/issues)中提出。**
 
@@ -64,11 +64,11 @@
 首先fork本仓库。
 
 随后可在您fork出的仓库中完成上述工作。
-各题目的文档均应放置在doc目录中与题目同名的子目录中，并有一个与题目同名的md文件作为题目文档入口，例如`doc/basic/basic.md`。文档中应包含上述“题目描述”、“编译方法”、“样例输出”、“评分依据”四个部分。如果描述此题目的信息需要创建多个文档文件或引用图片等，也一并放在子目录中。
+各题目的文档均应放置在doc目录中与题目同名的子目录中，并有一个与题目同名的md文件作为题目文档入口，例如 `doc/basic/basic.md`。文档中应包含上述“题目描述”、“编译方法”、“样例输出”、“评分依据”四个部分。如果描述此题目的信息需要创建多个文档文件或引用图片等，也一并放在子目录中。
 
 其中“编译方法项”除在文档中简要描述外，还应将赛题代码、编译脚本和命令合并至[赛题仓库](https://github.com/oscomp/testsuits-for-oskernel/tree/pre-2025)。赛题仓库的规则请参考[编译方法](#编译方法)。
 
-其中“评测依据”除在文档中描述外，还应提供测试脚本文件。测试脚本应放在本仓库的`judge`目录下脚本编写规则请参考[测试脚本](judge/README.md)。
+其中“评测依据”除在文档中描述外，还应提供测试脚本文件。测试脚本应放在本仓库的 `judge`目录下脚本编写规则请参考[测试脚本](judge/README.md)。
 
 完成后可在本仓库中发起pull request，从而将您的工作成果合并到本仓库中。
 
